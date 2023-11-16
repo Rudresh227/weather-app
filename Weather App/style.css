@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right bottom, #4b6ef5, #2e7af4, #0e84ef, #008de9, #1e94e1, #2491d9, #298dd2, #2d8aca, #1f7cc1, #136eb8, #0c60af, #0d52a4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-app{
+    height: 310px;
+    width:380px;
+    border: px solid;
+    border-radius: 20px;
+    background-color: rgb(0,10,24);
+    box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.1); 
+    padding: 10px;  
+}
+
+.weather-app-left{
+    height: 290px;
+    width: 100%;
+    border-radius: 20px 10px 10px 20px;
+    background-image: linear-gradient(to bottom, #19baf4, #00acf8, #009efa, #008ef9, #137cf5);
+    
+
+
+}
+
+
+
+.weather-app-left input{
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 3px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.76);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.2px);
+    -webkit-backdrop-filter: blur(9.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 270px;
+    height: 33px;
+    outline: 0;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 18px;
+    
+   
+    
+
+    
+
+}
+
+.weather-app-left input::placeholder{
+    color: rgba(0,0,0,0.5);
+    
+    
+}
+
+.weather-app-left .form button{
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 3px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.76);
+    border-radius: 9px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.2px);
+    -webkit-backdrop-filter: blur(9.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    outline: 0;
+    width: 40px;
+    height: 34px;
+    cursor: pointer;
+
+}
+
+.weather-app-c-one{
+    height: 130px;
+    width: 90%;
+    border: px solid;
+    margin: auto;
+}
+
+.weather-app-c-one-left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: px solid;
+    float: left;
+    
+
+}
+
+.weather-app-c-one-right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: px solid;
+    
+}
+
+
+
+
+.weather-app-c-one-left h2{
+    color: whitesmoke;
+    margin-left: 24px;
+
+    
+}
+
+
+.weather-app-c-two{
+    height: 100px;
+    width: 90%;
+    border: px solid;
+    margin: auto;
+    
+}
+
+.weather-app-c-two{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    
+    
+    
+}
+
+.humidity,.wind-speed{
+    display: flex;
+    gap:5px;
+    margin-left: 11%;
+    
+    
+}
+
+.humidity p,.wind-speed p{
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.humidity img,.wind-speed img{
+    height: 17px;
+    margin-top: 6px;
+    
+
+}
+
+.weather-app-c-one-right img{
+    height: 110px;
+    margin-right: 25px;
+}
+
+.humidity h3,.wind-speed h3{
+    font-weight: 800;
+
+}
